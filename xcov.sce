@@ -1,0 +1,3 @@
+function Y = xcov(x)
+
+// 
