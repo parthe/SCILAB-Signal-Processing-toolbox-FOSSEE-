@@ -1,3 +1,3 @@
-function Y = xcov(x)
+function [c,lags] = xcov(x,y,maxlags,)
 
 // 
