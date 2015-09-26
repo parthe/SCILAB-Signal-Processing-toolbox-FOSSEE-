@@ -1,2 +1,0 @@
-function y = xcorr(x)
-//
