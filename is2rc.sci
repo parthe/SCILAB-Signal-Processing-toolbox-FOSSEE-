@@ -9,8 +9,8 @@ function [k] = is2rc(isin)
 // k: output reflection coefficients  corresponding to the reflection coefficients in input
 //
 // Description
-// This function returns a vector of reflection coeffients from a vector of inverse sine parameters
-// output array has k(i) = sin(pi/2*k(i))
+// This function returns a vector of reflection coefficients from a vector of inverse sine parameters
+// output array has k(i) = sin(pi/2*isin(i))
 //
 // Example
 // k = [0.3090 0.9801 0.0031 0.0082 -0.0082];
@@ -34,5 +34,5 @@ if (~isreal(k)),
  error('Input reflection coefficients are not real');
 end           
 
-k = sin(isin*pi/2);
+k = sin(isin*%pi/2);
 endfunction

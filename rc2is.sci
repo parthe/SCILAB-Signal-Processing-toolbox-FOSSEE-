@@ -37,6 +37,6 @@ if max(abs(k)) >= 1,
     error('Input reflection coefficients are not normalize. They need to be in the range -1 to 1');
 end
 
-isin = (2/pi)*asin(k);
+isin = (2/%pi)*asin(k);
 
 endfunction
