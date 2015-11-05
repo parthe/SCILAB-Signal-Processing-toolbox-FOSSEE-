@@ -30,8 +30,8 @@ function [k] = is2rc(isin)
 // J.R. Deller, J.G. Proakis, J.H.L. Hansen, "Discrete-Time Processing of Speech Signals", Prentice Hall, Section 7.4.5
 
 //errcheck1
-if (~isreal(k)),
- error('Input reflection coefficients are not real');
+if (~isreal(isin)),
+ error('Input inverse sine coefficients are not real');
 end           
 
 k = sin(isin*%pi/2);
