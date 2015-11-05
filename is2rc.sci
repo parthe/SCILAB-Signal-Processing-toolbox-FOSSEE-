@@ -2,7 +2,7 @@ function [k] = is2rc(isin)
 // Convert inverse sine parameters to reflection coefficients
 // 
 // Calling Sequence
-// isin = rc2is(K) 
+// K = is2rc(isin) 
 // 
 // Parameters
 // isin: input inverse sine parameters. Needs to be an array real numbers
@@ -18,7 +18,7 @@ function [k] = is2rc(isin)
 // k_dash = is2rc(isin)
 //
 // See also 
-// is2rc
+// rc2is
 // rc2poly
 // rc2ac
 // rc2lar
